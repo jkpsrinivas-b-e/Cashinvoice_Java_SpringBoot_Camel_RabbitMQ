@@ -40,5 +40,3 @@ File → RabbitMQ → Consumer flow
 Orders can be read from files using Camel routes
 Orders are published to RabbitMQ
 Consumer route listens and processes messages
-
-This demonstrates enterprise messaging and integrati
