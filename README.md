@@ -29,11 +29,11 @@ USER
   Can create orders
   Can view only their own orders
 
-**Order Management**
-1. Create a new order
-2. Get order by Order ID
-3. List orders by Customer ID
-4. Role-based access control enforced at API level
+**Order Management with API's**
+1. Login using Admin/User - http://localhost:8080/auth/login
+2. Create a new order - http://localhost:8080/api/orders
+3. Get order by Order ID - http://localhost:8080/api/orders/{order-id}
+4. List orders by Customer ID -  http://localhost:8080/api/orders/customer/{customer-id}
 
 **Apache Camel Integration**
 File → RabbitMQ → Consumer flow
